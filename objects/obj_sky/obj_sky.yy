@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"spr_sky",
+  "%Name":"obj_sky",
   "eventList":[],
   "managed":true,
-  "name":"spr_sky",
+  "name":"obj_sky",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "parentObjectId":null,
   "persistent":false,
