@@ -34,10 +34,10 @@
   },
   "name":"2DSideScrollingPlatformer",
   "resources":[
+    {"id":{"name":"obj_banana","path":"objects/obj_banana/obj_banana.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_sky","path":"objects/obj_sky/obj_sky.yy",},},
-    {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},},
