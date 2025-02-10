@@ -68,22 +68,24 @@ else
 	/// @DnDParent : 2E51D643
 	/// @DnDArgument : "var" "move_y"
 	/// @DnDArgument : "op" "1"
-	/// @DnDArgument : "value" "80"
-	if(move_y < 80)
+	/// @DnDArgument : "value" "10"
+	if(move_y < 10)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 617737A7
 		/// @DnDParent : 1DF68749
 		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "move_y"
-		move_y = 1;
+		move_y += 1;
 	}
 }
 
 /// @DnDAction : YoYo Games.Movement.move_and_collide
 /// @DnDVersion : 1
 /// @DnDHash : 5514B48A
+/// @DnDComment : object is the object being avoided$(13_10)
 /// @DnDApplyTo : {obj_player}
 /// @DnDArgument : "xvel" "move_x"
 /// @DnDArgument : "yvel" "move_y"
