@@ -14,7 +14,7 @@ effect_create_below(0, x + 0, y + 0, 0, $FFFFFF & $ffffff);
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 497F91DE
-/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr" "10"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "coins"
-coins += 3;
+coins += 10;

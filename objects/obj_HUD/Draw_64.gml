@@ -32,6 +32,6 @@ draw_set_font(font_opensans);
 /// @DnDHash : 1D55BE5C
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""coins: ""
+/// @DnDArgument : "caption" ""COINS: ""
 /// @DnDArgument : "var" "obj_player.coins"
-draw_text(x + 0, y + 0, string("coins: ") + string(obj_player.coins));
+draw_text(x + 0, y + 0, string("COINS: ") + string(obj_player.coins));
