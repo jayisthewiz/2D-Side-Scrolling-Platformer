@@ -52,8 +52,9 @@ if ((l54F42764_0 > 0))
 		/// @DnDComment : jump
 		/// @DnDParent : 6311549F
 		/// @DnDArgument : "expr" "-jump_speed"
+		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "move_y"
-		move_y = -jump_speed;
+		move_y += -jump_speed;
 	}
 }
 
@@ -74,6 +75,7 @@ else
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 617737A7
+		/// @DnDComment : gravity
 		/// @DnDParent : 1DF68749
 		/// @DnDArgument : "expr" "1"
 		/// @DnDArgument : "expr_relative" "1"
